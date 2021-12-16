@@ -64,6 +64,7 @@ CREATE TABLE `spijkers` (
   `id` int(11) NOT NULL,
   `machine` varchar(30) NOT NULL,
   `productiesnelheid` int(11) NOT NULL,
+  'productiviteit' int(11) NOT NULL,
   `timestamp` datetime NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
