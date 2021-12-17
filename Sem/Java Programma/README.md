@@ -5,7 +5,7 @@ hierin zal ik bepaalde onderdelen van mijn code uitleggen.
 in de initialize word op het moment dat het programma opstart meteen met de database verbinding gemaakt om bepaalde gegevens op te vragen.
 hieronder een voorbeeld van het ophalen van de aantallen die vandaag worden gemaakt op machine n-4-7.
 
-java***
+***java
 try
         {
             Database db = new Database();
@@ -18,9 +18,10 @@ try
                 lblProductieVandaag.setText(String.valueOf(productiesnelheid));
             }
             db.disconnect();
-        }catch (Exception e)
+        }
+catch (Exception e)
         {
             System.out.println(e.getMessage());
         }
-java***
+***java
 
