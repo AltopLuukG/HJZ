@@ -2,8 +2,10 @@ in dit document heb ik mijn 4 classe van het java programma gezet.
 hierin zal ik bepaalde onderdelen van mijn code uitleggen.
 
 ***java
+{
 try
         {
+        
             Database db = new Database();
             db.connect();
             // is voor aantal geproduceerde spijkers vandaag
@@ -21,4 +23,5 @@ catch (Exception e)
         {
             System.out.println(e.getMessage());
         }
+}
 ***java
