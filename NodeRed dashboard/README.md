@@ -5,8 +5,8 @@ Hier kun je de Flow vinden voor NodeRed.
 NodeRed is een programma waar je makkelijk dashboards mee kunt programmeren. Het programmeren zelf gebeurt door middel van zo geheten nodes. Deze nodes zijn blokjes die je in het werk veld kan slepen en met draden aan elkaar kan verbinden. Zo kun je heel snel en relatief eenvoudig een dashboard maken met een professionele look.  
 
 ### Hoe installeer ik NodeRED?
-Ga naar: Getting Started : Node-RED (nodered.org) en klik aan op welk apparaat of besturingssysteem je NodeRed wil installeren. Wij hebben om te testen NodeRed op onze laptop geïnstalleerd omdat dit het testen erg makkelijk maakt.  
-Om NodeRed op je laptop te installeren ga je naar deze link: Running on Windows : Node-RED (nodered.org). Volg de instructie op de website om NodeRed te installeren. 
+Ga naar: (https://nodered.org/docs/getting-started/ “Getting Started : Node-RED (nodered.org)”) en klik aan op welk apparaat of besturingssysteem je NodeRed wil installeren. Wij hebben om te testen NodeRed op onze laptop geïnstalleerd omdat dit het testen erg makkelijk maakt.  
+Om NodeRed op je laptop te installeren ga je naar deze link: (https://nodered.org/docs/getting-started/windows “Running on Windows : Node-RED (nodered.org)”). Volg de instructie op de website om NodeRed te installeren. 
 Binnen het bedrijf hebben we NodeRed op de server gezet. 
 
 ### Hoe start ik NodeRed?
@@ -38,6 +38,7 @@ Onderaan staat de knop ```manage palette``` hiermee kun je libraries installeren
 5.	Klik op ```search modules```.
 
 6.	Typ de naam van de library die je wil installeren in. Bijvoorbeeld ```mysql``` en klik op de libary die je wilt hebben en klik op ``ìnstall```. 
+
  
 De library installeert zichzelf. Je hoeft nu niks te doen.
 
@@ -52,4 +53,3 @@ De libraries die we in ons programma hebben gebruikt zijn:
 2.	Klik op ```dashboard``` in het drop down menuutje. 
 3.	klik nu op dit icoontje:
 Er wordt nu een nieuw tabblad met het dashboard geopend. 
-
