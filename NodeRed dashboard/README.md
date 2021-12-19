@@ -45,7 +45,9 @@ De library installeert zichzelf. Je hoeft nu niks te doen.
 7.	Herhaal stap 1 tot 6 net zolang totdat alle libraries zijn geïnstalleerd. 
 De libraries die we in ons programma hebben gebruikt zijn:
 •	```Node-red-node-mysql```
+
 •	```Node-red-contrib-startup-trigger```
+
 •	```Node-red-dashboard```
 
 ### Hoe start ik de code (flow)?
