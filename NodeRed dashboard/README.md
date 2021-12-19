@@ -16,7 +16,7 @@ Windows:
 3.	Druk op ```ENTER```.
 4.	Typ dit in het geopende menu: ```node-red start``` 
 5.	Druk op ```ENTER```.
-6.	Je zal, als NodeRed succesvol is opgestart, dit op je scherm zien verschijnen. Je kunt nu naar je browser gaan en het aangegeven IP-adres in je zoekbalk typen. Dit zal vrijwel altijd ```http://127.0.0.1:1880/``` zijn. Druk op ```ENTER```. 
+6.	Je zal, als NodeRed succesvol is opgestart, dit op je scherm zien verschijnen. Je kunt nu naar je browser gaan en het aangegeven IP-adres in je zoekbalk typen. Dit zal          vrijwel altijd ```http://127.0.0.1:1880/``` zijn. Druk op ```ENTER```. 
 7.	Als je het IP-adres ingetoetst hebt zul je op deze pagina terecht komen. 
 
 ### Hoe gebruik ik NodeRED?
@@ -43,12 +43,13 @@ Onderaan staat de knop ```manage palette``` hiermee kun je libraries installeren
 De library installeert zichzelf. Je hoeft nu niks te doen.
 
 7.	Herhaal stap 1 tot 6 net zolang totdat alle libraries zijn geïnstalleerd. 
-De libraries die we in ons programma hebben gebruikt zijn:
-•	```Node-red-node-mysql```
+    De libraries die we in ons programma hebben gebruikt zijn:
 
-•	```Node-red-contrib-startup-trigger```
+     •	```Node-red-node-mysql```
+ 
+     •	```Node-red-contrib-startup-trigger```
 
-•	```Node-red-dashboard```
+     •	```Node-red-dashboard```
 
 ### Hoe start ik de code (flow)?
 1.	Druk op ```deploy```.
