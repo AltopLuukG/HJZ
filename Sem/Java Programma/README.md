@@ -1,10 +1,9 @@
-in dit document heb ik mijn 4 classe van het java programma gezet.
-hierin zal ik bepaalde onderdelen van mijn code uitleggen.
+In dit document heb ik mijn 4 classe van het java programma gezet.
+Hierin zal ik bepaalde onderdelen van mijn code uitleggen.
 
-***java
-try
+## java
+```try
         {
-        
             Database db = new Database();
             db.connect();
             // is voor aantal geproduceerde spijkers vandaag
@@ -21,5 +20,4 @@ try
 catch (Exception e)
         {
             System.out.println(e.getMessage());
-        }
-***java
+        }```
