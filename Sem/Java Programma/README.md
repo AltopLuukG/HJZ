@@ -26,7 +26,7 @@ catch (Exception e)
             System.out.println(e.getMessage());
         } 
 ```
-in dit onderstuk word mijn query omgezet in een int, en deze word toegevoegd tot de PieChart Algemeen
+in dit onderste stuk word mijn query omgezet in een int, en deze word toegevoegd tot de PieChart Algemeen
 
 ```java
       int AlgemeenOverige = AlgemeenOverigeQuery;
@@ -38,5 +38,9 @@ in dit onderstuk word mijn query omgezet in een int, en deze word toegevoegd tot
                         new PieChart.Data("Overige(" + AlgemeenOverige + ")", AlgemeenOverige));
         PCAlgemeen.getData().addAll(pieChartAlgemeen); 
  ```
- 
- 
+
+## belangerijk!
+voor al mijn storingen vraag ik ze binnen een try & catch op en gerbuik ik deze belangerijke stukken om mijn storingen duidelijk te maken op een java dashboard.
+
+
+        
