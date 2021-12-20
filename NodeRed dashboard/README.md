@@ -68,3 +68,32 @@ De library installeert zichzelf. Je hoeft nu niks te doen.
 ![image](https://user-images.githubusercontent.com/44370997/146731789-007ba798-0588-4700-8abf-2c1f1aa6a468.png)
 
 Er wordt nu een nieuw tabblad met het dashboard geopend. 
+
+## Instellingen
+Als je een Flow (code) importeert kan het zo zijn dat er geen of weinig knoppen in je dashboard staan. Dit komt omdat NodeRed niet weet in welke ```group``` de knoppen moeten komen te staan.
+Je kunt dit zien door een button, tekst of drop down menu node open te klikken. Als je zo’n node open klikt zul je ongeveer dit scherm te zien krijgen. Als NodeRed niet weet in welke ```group``` de knop geplaatst moet worden zal er in plaats van ```Controle```, ```undefined``` staan. 
+![image](https://user-images.githubusercontent.com/44370997/146752007-1d11b762-1174-4ffb-8442-958c0ee9db1d.png)
+ 
+Je kunt dit oplossend door op het pennetje rechts van ```[undefined] Machine``` aan te klikken. Je zult nu dit scherm zien. Door op het naar in rood omcirkelde knopje aan te klikken opent je een menuutje. Hier klik je ```Controle``` aan. 
+![image](https://user-images.githubusercontent.com/44370997/146752054-c954d103-8247-4256-9217-274f354bc4cd.png)
+ 
+Daarna klik je op ```Update``` rechts bovenaan en vervolgens op ```update```. 
+Daarna klik je op ```deploy``` en dan zou je de knoppen en ander functies moeten zien verschijnen. 
+## volgorde en layout van dashboard aanpassen
+Om de volgorde van het dashboard aan te passen moet je in het dashboard tabje op ```layout``` klikken. Nu krijg je een menuutje waar alle dashboard items zichtbaar zijn. Je kunt deze gewoon rondslepen. 
+![image](https://user-images.githubusercontent.com/44370997/146752102-9823366d-8d0e-4aac-b8d6-267aaf658fe8.png)
+ 
+Dat menu ziet er zo uit:
+![image](https://user-images.githubusercontent.com/44370997/146752131-9fe81215-d7e6-4234-a210-48c51cfe71d7.png)
+ 
+Als je klaar bent klik je op ```done``` en ```deploy```.
+
+## instellen van MySQL nodes
+Zo ziet de MySQL database node eruit. 
+![image](https://user-images.githubusercontent.com/44370997/146752164-768634dd-3500-42f0-bd2c-6b366b68375b.png)
+ 
+Als je hierop dubbelklikt krijg je het keuzemenu te zien.
+![image](https://user-images.githubusercontent.com/44370997/146752180-e8e6bdbd-3c96-4ef7-a47a-e7368df8b834.png)
+ 
+Als je op het pennetje drukt krijg je de instellingen te zien. De code en instellingen voor de database zullen in de projectmap te vinden zijn.
+![image](https://user-images.githubusercontent.com/44370997/146752209-4fb4c7e3-7e97-4267-9925-de198c136d8f.png)
