@@ -44,7 +44,7 @@ Onderaan staat de knop ```manage palette``` hiermee kun je libraries installeren
 
 5.	Klik op ```search modules```.
 
-6.	Typ de naam van de library die je wil installeren in. Bijvoorbeeld ```mysql``` en klik op de libary die je wilt hebben en klik op ``ìnstall```. 
+6.	Typ de naam van de library die je wil installeren in. Bijvoorbeeld ```mysql``` en klik op de libary die je wilt hebben en klik op ```install```. 
 ![image](https://user-images.githubusercontent.com/44370997/146731701-1d7090f5-ec6c-4cb2-97f9-a47a3b924daf.png)
 
  
