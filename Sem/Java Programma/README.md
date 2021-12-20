@@ -4,7 +4,8 @@
 In dit document heb ik mijn 4 classe van het java programma gezet.
 Hierin zal ik bepaalde onderdelen van mijn code uitleggen.
 
-
+in het eerste gedeelte maakt mijn code verbinding met de mySQL server en vraagt ie met de `db.get` de query op (in dit geval) om het aantal geproduceerde spijkers vandaag van 
+de machine `n-4-7`
 ```java
         try
         {
