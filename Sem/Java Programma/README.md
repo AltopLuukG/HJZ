@@ -38,6 +38,19 @@ in dit onderste stuk word mijn query omgezet in een int, en deze word toegevoegd
                         new PieChart.Data("Overige(" + AlgemeenOverige + ")", AlgemeenOverige));
         PCAlgemeen.getData().addAll(pieChartAlgemeen); 
  ```
+ 
+ de actie die een knop onderneemt word hieronder duidelijk gemaakt door op de knop "spijkemakerij" te drukken zullen het pane van spijkemakerij op `(true)` en de andere pane's die u ziet staan op `(false)` te zetten.
+ 
+ ``` java 
+ public void showSpijkemakerij(ActionEvent actionEvent)
+    {
+        pnKantoor.setVisible(false);
+        pnOverige.setVisible(false);
+        pnSpijkemakerij.setVisible(true);
+        pnAlgemeen.setVisible(false);
+        pnStoringen.setVisible(false);
+        ```
+        
 
 ## belangerijk!
 voor al mijn storingen vraag ik ze binnen een try & catch op en gerbuik ik deze belangerijke stukken om mijn storingen duidelijk te maken op een java dashboard.
