@@ -46,6 +46,7 @@ in dit onderste stuk word mijn query omgezet in een int, en deze word toegevoegd
         PCAlgemeen.getData().addAll(pieChartAlgemeen); 
  ```
  
+ ### actie van de knoppen
  de actie die een knop onderneemt word hieronder duidelijk gemaakt door op de knop "spijkemakerij" te drukken zullen het pane van spijkemakerij op `(true)` en de andere pane's die u ziet staan op `(false)` te zetten.
  
  ``` java 
