@@ -33,7 +33,7 @@ catch (Exception e)
 ```
 
 ### definiëren in welke PieChart mijn query's mogen komen
-in dit onderste stuk word mijn query omgezet in een int, en deze word toegevoegd tot de PieChart Algemeen
+in dit onderste stuk word mijn query omgezet in een int, en deze word toegevoegd tot de PieChart Algemeen.
 
 ```java
       int AlgemeenOverige = AlgemeenOverigeQuery;
