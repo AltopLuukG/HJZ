@@ -49,7 +49,7 @@ in dit onderste stuk word mijn query omgezet in een int, en deze word toegevoegd
         pnSpijkemakerij.setVisible(true);
         pnAlgemeen.setVisible(false);
         pnStoringen.setVisible(false);
-        ```
+ ```
         
 
 ## belangerijk!
