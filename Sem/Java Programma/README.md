@@ -8,6 +8,7 @@ Hierin zal ik bepaalde onderdelen van mijn code uitleggen.
 in het eerste gedeelte maakt mijn code verbinding met de mySQL server en vraagt ie met de `db.get` de query op (in dit geval) om het aantal geproduceerde spijkers vandaag van 
 de machine `n-4-7`
 die slaat de code nog op als somsnelheid en deze word in de while opgevraagd als `int productiesnelheid = rs.getInt("somsnelheid");`, door deze query uit te voeren krijgt de code binnen hoeveel keer deze foutmelding is voorgekomen.
+deze query's zijn van te voren getest vanuit 'datagrip' om te kijken of ik de goede query eruit haalde.
         
 ```java
         try
