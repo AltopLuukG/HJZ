@@ -7,8 +7,7 @@ Hierin zal ik bepaalde onderdelen van mijn code uitleggen.
 ### ophalen van de goede query's vanuit de mySQL database.
 in het eerste gedeelte maakt mijn code verbinding met de mySQL server en vraagt ie met de `db.get` de query op (in dit geval) om het aantal geproduceerde spijkers vandaag van 
 de machine `n-4-7`
-die slaat de code nog op als somsnelheid en deze word in de while opgevraagd als `int productiesnelheid = rs.getInt("somsnelheid");`, hieruit krijgt de code
-binnen hoeveel keer deze foutmelding is voorgekomen.
+die slaat de code nog op als somsnelheid en deze word in de while opgevraagd als `int productiesnelheid = rs.getInt("somsnelheid");`, door deze query uit te voeren krijgt de code binnen hoeveel keer deze foutmelding is voorgekomen.
         
 ```java
         try
