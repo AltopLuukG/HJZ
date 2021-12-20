@@ -1,8 +1,9 @@
 In dit document heb ik mijn 4 classe van het java programma gezet.
 Hierin zal ik bepaalde onderdelen van mijn code uitleggen.
 
-## java
-```try
+
+```java
+        try
         {
             Database db = new Database();
             db.connect();
@@ -20,4 +21,6 @@ Hierin zal ik bepaalde onderdelen van mijn code uitleggen.
 catch (Exception e)
         {
             System.out.println(e.getMessage());
-        }```
+        } 
+```
+        
