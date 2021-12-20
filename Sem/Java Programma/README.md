@@ -1,3 +1,6 @@
+#Java Programmeren
+
+
 In dit document heb ik mijn 4 classe van het java programma gezet.
 Hierin zal ik bepaalde onderdelen van mijn code uitleggen.
 
@@ -23,4 +26,17 @@ catch (Exception e)
             System.out.println(e.getMessage());
         } 
 ```
-        
+in dit onderstuk word mijn query omgezet in een int, en deze word toegevoegd tot de PieChart Algemeen
+
+```java
+      int AlgemeenOverige = AlgemeenOverigeQuery;
+      
+        ObservableList<PieChart.Data> pieChartAlgemeen =
+                FXCollections.observableArrayList(
+                        new PieChart.Data("Kantoor (" + AlgemeenKantoor + ")", AlgemeenKantoor),
+                        new PieChart.Data("Spijkemakerij(" + AlgemeenSpijkemakerij + ")", AlgemeenSpijkemakerij),
+                        new PieChart.Data("Overige(" + AlgemeenOverige + ")", AlgemeenOverige));
+        PCAlgemeen.getData().addAll(pieChartAlgemeen); 
+ ```
+ 
+ 
