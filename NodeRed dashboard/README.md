@@ -90,6 +90,7 @@ Als je klaar bent klik je op ```done``` en ```deploy```.
 
 ## instellen van MySQL nodes
 Zo ziet de MySQL database node eruit. 
+
 ![image](https://user-images.githubusercontent.com/44370997/146752164-768634dd-3500-42f0-bd2c-6b366b68375b.png)
  
 Als je hierop dubbelklikt krijg je het keuzemenu te zien.
