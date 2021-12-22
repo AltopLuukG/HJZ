@@ -14,8 +14,8 @@ MySQL_Connection conn(&client);
 MySQL_Cursor *cursor;
 
 // MySQL Gegevens
-char user[] = "IndustrialShield";
-char pass[] = "HJZAdmin143%";
+char user[] = "Username";
+char pass[] = "Password";
 String machine = "Machine 7-N41";
 
 float max_productivity = 550.0; // Hoogste waarde uit database halen
