@@ -35,6 +35,11 @@ Voordat het programma op de microcontroller kan worden geladen moeten er enkele 
 #### Board beheer
 De Arduino omgeving heeft extra informatie nodig over de microcontroller om het programma te flashen. Klik hiervoor linksboven op `bestand` en daarna op `voorkeuren`. Voeg in het balkje bij `Meer Board Manager URL's` de volgende regel toe: `http://apps.industrialshields.com/main/arduino/boards/package_industrialshields_index.json` Klik vervolgens op OK.
 
+![image](https://user-images.githubusercontent.com/57816069/147211077-7a6eccb1-c6ab-4d22-a340-58818df4c03a.png) Openen `voorkeuren` scherm
+
+
+![image](https://user-images.githubusercontent.com/57816069/147210051-3c82d35f-7fdf-42d7-8191-ccf5045c7e94.png) Toevoegen Industrialshield gegevens
+
 Ga nu naar `Hulpmiddelen` en vervolgens naar het tabje `Board`. Klik in de lijst op "Industrial Shields megaAVR Boards" en zorg dat `10 IOS PLC Family` is geselecteerd. Zorg dat bij het tabje `model` `10 IOS PLC` is geselecteerd.
 
 ### Programma inladen
