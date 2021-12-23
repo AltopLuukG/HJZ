@@ -14,6 +14,8 @@ De volgende aansluitingen gelden voor de Turck bi3m08ap6x sensor
 * blauw - gnd en microcontroller GND 1
 * zwart - microcontroller Pin I0_0
 ```
+Om te testen of de sensor functioneert houdt je deze, nadat hij is aangesloten, met de kop tegen een metalen oppervlak aan. Wanneer de sensor iets meet gaat het lampje achterop de sensor branden.
+
 ![image](https://user-images.githubusercontent.com/57816069/147159540-c1bc548f-1fb9-48f6-ba03-479e40d557b6.png)
 Aansluitingen microcontroller
 
@@ -32,6 +34,10 @@ Download hier de [Arduino IDE.](https://www.arduino.cc/en/software)
 #### Bibliotheken
 Voordat het programma op de microcontroller kan worden geladen moeten er enkele bibliotheken worden geïnstalleerd. Hiervoor klik je bovenin op `hulpmiddelen` en vervolgens op `Bibliotheken beheren`. Er verschijnt nu een nieuw scherm. Tik in de zoekbalk `mysql` in. Selecteer vervolgens `MySQL Connector Arduino` en klik rechtsonderin het balkje op installeren.
 
+![image](https://user-images.githubusercontent.com/57816069/147211582-7c2bb4e8-8b33-427c-866a-330ee556a403.png)
+![image](https://user-images.githubusercontent.com/57816069/147211910-a3c1085c-9641-4041-b148-cc77067957bc.png)
+
+
 #### Board beheer
 De Arduino omgeving heeft extra informatie nodig over de microcontroller om het programma te flashen. Klik hiervoor linksboven op `bestand` en daarna op `voorkeuren`. Voeg in het balkje bij `Meer Board Manager URL's` de volgende regel toe: `http://apps.industrialshields.com/main/arduino/boards/package_industrialshields_index.json` Klik vervolgens op OK.
 
@@ -40,7 +46,10 @@ De Arduino omgeving heeft extra informatie nodig over de microcontroller om het 
 
 ![image](https://user-images.githubusercontent.com/57816069/147210051-3c82d35f-7fdf-42d7-8191-ccf5045c7e94.png) Toevoegen Industrialshield gegevens
 
-Ga nu naar `Hulpmiddelen` en vervolgens naar het tabje `Board`. Klik in de lijst op "Industrial Shields megaAVR Boards" en zorg dat `10 IOS PLC Family` is geselecteerd. Zorg dat bij het tabje `model` `10 IOS PLC` is geselecteerd.
+Ga nu naar `Hulpmiddelen` en vervolgens naar het tabje `Board`. Klik in de lijst op "Industrial Shields megaAVR Boards" en zorg dat `10 IOS PLC Family` is geselecteerd. Zorg dat bij het tabje `model` `10 IOS PLC` is geselecteerd. Nu is de juiste microcontroller ingesteld.
+
+![image](https://user-images.githubusercontent.com/57816069/147212193-7eda3674-964a-4ee7-ae3b-9cd69416ef26.png) Microcontroller instellen
+
 
 ### Programma inladen
 
