@@ -53,7 +53,10 @@ Ga nu naar `Hulpmiddelen` en vervolgens naar het tabje `Board`. Klik in de lijst
 
 ### Programma inladen
 
-Kies in het mapje met programma's het .ino bestand met de naam van de gewenste nagelproductiemachine. Open dit bestand in de Arduino IDE. Verbind je laptop of PC met de microcontroller met een micro-USB kabel en druk linksbovenin het programma op de upload knop (de groene knop met het pijltje). Nu is het programma aan het "flashen". Wanneer de statusbalk onderaan "Uploaden voltooid" weergeeft kan de microcontroller in gebruik worden genomen.
+Kies in het mapje met programma's het .ino bestand met de naam van de gewenste nagelproductiemachine. Open dit bestand in de Arduino IDE. Verbind je laptop of PC met de microcontroller met een micro-USB kabel. Zorg dat de juiste USB-poort is geselecteerd bij `hulpmiddelen` > `poort`. Druk linksbovenin het programma op de upload knop (de groene knop met het pijltje). Nu is het programma aan het "flashen". Wanneer de statusbalk onderaan "Uploaden voltooid" weergeeft kan de microcontroller in gebruik worden genomen.
+Werkt het uploaden niet? Probeer dan een andere poort uit bij `hulpmiddelen` > `poort`.
+
+![image](https://user-images.githubusercontent.com/57816069/147213212-77fa5090-395e-4d28-a1a8-8d73798650a1.png) Uploaden programma op microcontroller
 
 
 ## Arduino code
