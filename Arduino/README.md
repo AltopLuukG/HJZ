@@ -12,7 +12,7 @@ De volgende aansluitingen gelden voor de Turck bi3m08ap6x sensor
 ```
 * bruin - vcc
 * blauw - gnd en microcontroller GND 1
-* zwart - microcontroller shield Pin I0_0
+* zwart - microcontroller Pin I0_0
 ```
 ![image](https://user-images.githubusercontent.com/57816069/147159540-c1bc548f-1fb9-48f6-ba03-479e40d557b6.png)
 Aansluitingen microcontroller
@@ -47,6 +47,8 @@ Kies in het mapje met programma's het .ino bestand met de naam van de gewenste n
 ### Gebruikersgegevens
 De inloggegevens van de database in de Arduino code hoeven in principe niet worden aangepast.
 De machinenaam heeft echter wel invloed op hoe data wordt opgeslagen en verwerkt. Deze moet zowel in Arduino, Nodered en het Java dashboard overeen komen.
+
+Om te voorkomen dat bestaande programma's moeten worden aangepast wordt er een map opgeleverd waarin per machine een programma klaarstaat. Hiervoor hoeft er alleen bij de juiste machine het bijbehorende programma worden ingeladen. De .ino bestanden zijn herkenbaar aan de naam van de productiemachine.
 ```cpp
 // MySQL Gegevens
 char user[] = "Gebruikersnaam"; //De gebruikersnaam van de MySQL database.
