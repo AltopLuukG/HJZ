@@ -33,7 +33,7 @@ catch (Exception e)
 ```
 
 ### Definiëren in welke PieChart mijn query's mogen komen
-In dit onderste stuk word mijn query omgezet in een int, en deze word toegevoegd tot de PieChart Algemeen.
+In dit onderste stuk wordt mijn query omgezet in een int, en deze word toegevoegd tot de PieChart Algemeen.
 
 ```java
       int AlgemeenOverige = AlgemeenOverigeQuery;
@@ -46,8 +46,8 @@ In dit onderste stuk word mijn query omgezet in een int, en deze word toegevoegd
         PCAlgemeen.getData().addAll(pieChartAlgemeen); 
  ```
  
- ### Acties van de knoppen
-De actie die een knop onderneemt word hieronder duidelijk gemaakt door op de knop "spijkemakerij" te drukken zullen het pane van spijkemakerij op `(true)` en de andere pane's die u ziet staan op `(false)` te zetten.
+### Acties van de knoppen
+De actie die een knop onderneemt wordt hieronder duidelijk gemaakt door op de knop "spijkemakerij" te drukken zullen het pane van spijkemakerij op `(true)` en de andere pane's die u ziet staan op `(false)` te zetten.
  
  ``` java 
  public void showSpijkemakerij(ActionEvent actionEvent)
@@ -60,5 +60,5 @@ De actie die een knop onderneemt word hieronder duidelijk gemaakt door op de kno
  ```
         
 
-## Belangerijk!
-Voor al mijn storingen vraag ik ze binnen een try & catch op en gebruik ik deze belangerijke stukken om mijn storingen duidelijk te maken op een Java-dashboard.
+## Belangrijk!
+Voor al mijn storingen vraag ik ze binnen een try & catch op en gebruik ik deze belangrijke stukken om mijn storingen duidelijk te maken op een Java-dashboard.
