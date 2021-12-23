@@ -16,8 +16,7 @@ De volgende aansluitingen gelden voor de Turck bi3m08ap6x sensor
 ```
 Om te testen of de sensor functioneert houdt je deze, nadat hij is aangesloten, met de kop tegen een metalen oppervlak aan. Wanneer de sensor iets meet gaat het lampje achterop de sensor branden.
 
-![image](https://user-images.githubusercontent.com/57816069/147159540-c1bc548f-1fb9-48f6-ba03-479e40d557b6.png)
-Aansluitingen microcontroller
+![image](https://user-images.githubusercontent.com/57816069/147159540-c1bc548f-1fb9-48f6-ba03-479e40d557b6.png)<br>  Aansluitingen microcontroller
 
 ## Spijkertellers gereed maken voor nagelproductiemachines
 
@@ -41,14 +40,14 @@ Voordat het programma op de microcontroller kan worden geladen moeten er enkele 
 #### Board beheer
 De Arduino omgeving heeft extra informatie nodig over de microcontroller om het programma te flashen. Klik hiervoor linksboven op `bestand` en daarna op `voorkeuren`. Voeg in het balkje bij `Meer Board Manager URL's` de volgende regel toe: `http://apps.industrialshields.com/main/arduino/boards/package_industrialshields_index.json` Klik vervolgens op OK.
 
-![image](https://user-images.githubusercontent.com/57816069/147211077-7a6eccb1-c6ab-4d22-a340-58818df4c03a.png) Openen `voorkeuren` scherm
+![image](https://user-images.githubusercontent.com/57816069/147211077-7a6eccb1-c6ab-4d22-a340-58818df4c03a.png)<br>  Openen `voorkeuren` scherm
 
 
-![image](https://user-images.githubusercontent.com/57816069/147210051-3c82d35f-7fdf-42d7-8191-ccf5045c7e94.png) Toevoegen Industrialshield gegevens
+![image](https://user-images.githubusercontent.com/57816069/147210051-3c82d35f-7fdf-42d7-8191-ccf5045c7e94.png)<br>  Toevoegen Industrialshield gegevens
 
 Ga nu naar `Hulpmiddelen` en vervolgens naar het tabje `Board`. Klik in de lijst op "Industrial Shields megaAVR Boards" en zorg dat `10 IOS PLC Family` is geselecteerd. Zorg dat bij het tabje `model` `10 IOS PLC` is geselecteerd. Nu is de juiste microcontroller ingesteld.
 
-![image](https://user-images.githubusercontent.com/57816069/147212193-7eda3674-964a-4ee7-ae3b-9cd69416ef26.png) Microcontroller instellen
+![image](https://user-images.githubusercontent.com/57816069/147212193-7eda3674-964a-4ee7-ae3b-9cd69416ef26.png)<br>  Microcontroller instellen
 
 
 ### Programma inladen
@@ -56,7 +55,7 @@ Ga nu naar `Hulpmiddelen` en vervolgens naar het tabje `Board`. Klik in de lijst
 Kies in het mapje met programma's het .ino bestand met de naam van de gewenste nagelproductiemachine. Open dit bestand in de Arduino IDE. Verbind je laptop of PC met de microcontroller met een micro-USB kabel. Zorg dat de juiste USB-poort is geselecteerd bij `hulpmiddelen` > `poort`. Druk linksbovenin het programma op de upload knop (de groene knop met het pijltje). Nu is het programma aan het "flashen". Wanneer de statusbalk onderaan "Uploaden voltooid" weergeeft kan de microcontroller in gebruik worden genomen.
 Werkt het uploaden niet? Probeer dan een andere poort uit bij `hulpmiddelen` > `poort`.
 
-![image](https://user-images.githubusercontent.com/57816069/147213212-77fa5090-395e-4d28-a1a8-8d73798650a1.png) Uploaden programma op microcontroller
+![image](https://user-images.githubusercontent.com/57816069/147213212-77fa5090-395e-4d28-a1a8-8d73798650a1.png)<br>  Uploaden programma op microcontroller
 
 
 ## Arduino code
