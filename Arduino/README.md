@@ -1,4 +1,4 @@
-# Installatie Microcontroller
+# Installatie Microcontroller en programma
 
 ## Aansluitingen schakelkast
 
