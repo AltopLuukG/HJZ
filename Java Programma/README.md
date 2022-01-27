@@ -64,6 +64,7 @@ Voor al mijn storingen vraag ik ze binnen een try & catch op en gebruik ik deze 
 
 
 ## verbeterfase en wat ik hier voor heb gedaan.
+### orders opslaan
 voor in de verbeterfase heb ik een begin gemaakt aan het automatiseren van de orders. 
 in het programma staat een tabblat nu waarin de desbetreffende klant de orders kan invoegen en deze worden opgeslagen in de database.
 
@@ -104,4 +105,23 @@ in het programma staat een tabblat nu waarin de desbetreffende klant de orders k
 
     }
   ```
+  in de code zie je dat de opgehaalde text eerst in een string word opgeslagen, de string word meteen via de query opgeslagen in de database of er word een double/int van gemaakt om deze vervolgens dan op te slaan.
+  vervolgens word er verbinding gemaakt met de data base met `db.connect();`.
+  is er verbinding gemaakt gaat de query werken, hierin word gezegd in welke `table` die moet en in welke rijen welke `values` daarin mogen worden opgeslagen.
   
+  ### textfield leegmaken.
+  
+  ```java
+  public void clearTextField(ActionEvent actionEvent)
+    {
+        txtMachine.clear();
+        txtDraad_d_2.clear();
+        txtL_1_mm.clear();
+        txtKopsoort.clear();
+        txtOrdernummer.clear();
+        txtH_1_mm.clear();
+        txtDraad_d_1.clear();
+        txtAfm_mm.clear();
+    }
+  ```
+in dit deel van de code word gebruik gemaakt van een button die zoals je ziet de tekst velden leeg maakt met de command `clear`.
