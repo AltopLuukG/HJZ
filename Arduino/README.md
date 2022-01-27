@@ -69,5 +69,12 @@ Om te voorkomen dat bestaande programma's moeten worden aangepast wordt er een m
 // MySQL Gegevens
 char user[] = "Gebruikersnaam"; //De gebruikersnaam van de MySQL database.
 char pass[] = "Wachtwoord";     //Het bijbehorende wachtwoord.
-String machine = "N-4-7";       //De nagelproductiemachine waarop de teller wordt geïnstalleerd
+#define N_4_7 //Machine 7 (N-41-7) Wordt hier gedefinieerd. Hierdoor krijgt de Arduino de juiste gegevens mee om in te loggen op de database en om productiviteit te berekenen
+
+#ifdef N_4_7
+    String machine = "N-4-7";
+    byte mac[6] = {0x90, 0xA2, 0xDA, 0xB5, 0x17, 0x90};
+    float max_productivity = 550.0;
+#endif
+
 ```
