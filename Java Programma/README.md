@@ -59,6 +59,49 @@ De actie die een knop onderneemt wordt hieronder duidelijk gemaakt door op de kn
         pnStoringen.setVisible(false);
  ```
         
-
 ## Belangrijk!
 Voor al mijn storingen vraag ik ze binnen een try & catch op en gebruik ik deze belangrijke stukken om mijn storingen duidelijk te maken op een Java-dashboard.
+
+
+## verbeterfase en wat ik hier voor heb gedaan.
+voor in de verbeterfase heb ik een begin gemaakt aan het automatiseren van de orders. 
+in het programma staat een tabblat nu waarin de desbetreffende klant de orders kan invoegen en deze worden opgeslagen in de database.
+
+```java 
+ public void SendData(ActionEvent actionEvent)
+    {
+        // hieronder word het stuk waardoor de klant de data kan versturen naar de database
+        String Machine = txtMachine.getText();
+        String Ordernummer = txtOrdernummer.getText();
+        String Kopsoort = txtKopsoort.getText();
+        String Afm_mm = txtAfm_mm.getText();
+        String Draad_d_1 = txtDraad_d_1.getText();
+        String Draad_d_2 = txtDraad_d_2.getText();
+        String H_1_mm = txtH_1_mm.getText();
+        String L_1_mm = txtL_1_mm.getText();
+
+        int Ordernummer1 = Integer.parseInt(Ordernummer);
+        double Afm_mm1 = Double.parseDouble(Afm_mm);
+        double Draad_d_11 = Double.parseDouble(Draad_d_1);
+        double Draad_2_11 = Double.parseDouble(Draad_d_2);
+        double H_1_mm1 = Double.parseDouble(H_1_mm);
+        double L_1_mm1 = Double.parseDouble(L_1_mm);
+
+        try
+
+        {
+            Database db = new Database();
+            db.connect();
+
+            db.query("insert into orders(machine, ordernummer, kopsoort, draad_d_1, afm_mm, d_2_mm, h_1_mm, l_1) values ('" + Machine + "', '" + Ordernummer1 + "', '" + Kopsoort + "', '" + Draad_d_11 + "', '" + Afm_mm1 + "', '" + Draad_2_11 + "', '" + H_1_mm1 + "', '" + L_1_mm1 + "' )");
+
+
+            db.disconnect();
+        } catch (Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
+
+    }
+  ```
+  
