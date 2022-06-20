@@ -8,7 +8,6 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
-    @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("dashboardHJZ.fxml"));
         primaryStage.setTitle("HJZ DraadIndustrie");
@@ -21,3 +20,4 @@ public class Main extends Application {
         launch(args);
     }
 }
+
